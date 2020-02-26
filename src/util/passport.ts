@@ -1,6 +1,6 @@
 import passport from "passport";
 import passportLocal from "passport-local";
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from "express-serve-static-core";
 import AccountService from "../components/account/AccountService";
 import { UserEntity } from "../components/account/AccountEntity";
 import { AccountModel } from "../components/account/AccountModel";
