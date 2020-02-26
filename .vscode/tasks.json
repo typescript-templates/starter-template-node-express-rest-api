@@ -1,0 +1,59 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558 
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "gulp",
+      "task": "project-build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "es-lint",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "project-build-dev",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "build-dev",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "project-publish",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "build-tsc",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "watch-debug-nodemon",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "watch-debug",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "watch-debug-serve",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
