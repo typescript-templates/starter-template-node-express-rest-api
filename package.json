@@ -1,6 +1,6 @@
 {
   "version": "0.0.2",
-  "name": "@typescript-templates/starter-template",
+  "name": "@typescript-templates/node-express-rest-api",
   "publishConfig": {
     "access": "public"
   },
@@ -113,6 +113,6 @@
   },
   "license": "GNU General Public License v3.0",
   "repository": {
-    "url": "https://github.com/typescript-templates/starter-template"
+    "url": "https://github.com/typescript-templates/node-express-rest-api"
   }
 }
