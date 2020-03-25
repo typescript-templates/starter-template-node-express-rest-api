@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import lusca from "lusca";
 import passport from "passport";
 import AppRoutes from "./routes/index";
-import { MongoDb } from "dotup-ts-mongoose";
+import { MongoDb } from "@dotup/dotup-ts-mongoose";
 
 export class MyApp {
   private db: MongoDb;

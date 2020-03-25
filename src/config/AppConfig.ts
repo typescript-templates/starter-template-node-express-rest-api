@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import fs from "fs";
-import { PropertyNamesOnly } from "dotup-ts-types";
+import { PropertyNamesOnly } from "@dotup/dotup-ts-types";
 
 class AppConfig {
 

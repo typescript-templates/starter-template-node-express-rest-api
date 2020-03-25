@@ -1,4 +1,4 @@
-import { SchemaFactory } from "dotup-ts-mongoose";
+import { SchemaFactory } from "@dotup/dotup-ts-mongoose";
 import { AccountProfileSchema, LinkedAccountSchema } from "../../entities/SubSchemas";
 import { AccountModel } from "./AccountModel";
 import validator, { } from "validator";

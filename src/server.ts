@@ -1,6 +1,5 @@
 import express from "express";
 import errorHandler from "errorhandler";
-
 import AppConfig from "./config/AppConfig";
 import { MyApp } from "./app";
 import logger from "./util/logger";
@@ -43,5 +42,10 @@ async function StartServer(): Promise<Server> {
 }
 
 const server = StartServer();
-
+server
+  .catch(e => {
+    console.log("app start failed");
+    console.log(e);
+  })
+  ;
 export default app;
