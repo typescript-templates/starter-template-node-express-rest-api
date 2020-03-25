@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express-serve-static-core";
+import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 
 import AppConfig from "../config/AppConfig";
@@ -30,7 +30,7 @@ const JwtAuthenticator = async (req: Request, res: Response, next: NextFunction)
     const user = await UserEntity.findOne({ _id: decoded._id, "apitoken": token });
 
     if (user) {
-      req.token = token;
+      (req as any).token = token;
       req.user = user;
       next();
     } else {

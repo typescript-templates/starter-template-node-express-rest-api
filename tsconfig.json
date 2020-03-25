@@ -1,7 +1,6 @@
 {
   "include": [
-    "src/**/*.ts",
-    "src copy/sample.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
     "spec",
@@ -14,6 +13,8 @@
     "src/**/*.example.ts"
   ],
   "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
     "baseUrl": ".",
     "target": "ES6",
     "module": "CommonJS",
@@ -24,10 +25,8 @@
     ],
     "jsx": "react",
     "removeComments": true,
-    "declaration": true,
+    "declaration": false,
     "sourceMap": true,
-    "outDir": "dist",
-    "rootDir": "src",
     "strict": false,
     "noImplicitAny": true,
     "strictNullChecks": false,
@@ -35,10 +34,6 @@
     "strictPropertyInitialization": false,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    "esModuleInterop": true,
-    "typeRoots": [
-      "@types",
-      "node_modules/@types"
-    ]
+    "esModuleInterop": true
   }
 }

@@ -45,8 +45,8 @@ class AccountService {
 
   }
 
-  async GetAllUsers(): Promise<AccountModel[]> {
-    const result = await UserEntity.estimatedDocumentCount().find().lean();
+  async GetAllUsers(): Promise<number> {
+    const result = await UserEntity.estimatedDocumentCount();
     return result;
   }
 

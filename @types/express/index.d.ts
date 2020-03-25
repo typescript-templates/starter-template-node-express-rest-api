@@ -1,8 +1,17 @@
 import { AccountModel } from "../../src/components/account/AccountModel";
 
-declare module "express-serve-static-core" {
-  interface Request {
-    user: AccountModel;
-    token: any;
+// declare module "express" {
+//   interface Request {
+//     user: AccountModel;
+//     token: any;
+//   }
+// }
+
+declare global {
+  namespace Express {
+    interface Request {
+      user: AccountModel;
+      token: any;
+    }
   }
 }
