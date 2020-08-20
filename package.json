@@ -42,7 +42,7 @@
     "@dotup/dotup-ts-mongoose": "1.1.2",
     "@dotup/dotup-ts-types": "1.1.1",
     "@types/bcrypt": "^3.0.0",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "compression": "1.7.4",
     "connect-mongo": "^3.2.0",
