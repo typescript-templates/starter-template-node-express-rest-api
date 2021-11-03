@@ -59,7 +59,7 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "recursive": "^0.0.2",
-    "validator": "^13.0.0",
+    "validator": "^13.7.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
