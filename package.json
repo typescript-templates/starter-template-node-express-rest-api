@@ -51,7 +51,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "inversify": "^5.0.1",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "lodash": "^4.17.15",
     "lusca": "^1.6.1",
     "mongodb": "3.5.5",
